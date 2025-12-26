@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: kamalakar2210/board_game_poc:82
+          image: kamalakar2210/board_game_poc:10
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
