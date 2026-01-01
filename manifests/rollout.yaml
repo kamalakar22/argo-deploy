@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: kamalakar2210/board_game:TAG
+          image: kamalakar2210/board_game:10
           ports:
             - containerPort: 8080
 
