@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: docker.io/gkamalakar1006/board_game:21
+          image: gkamalakar1006/boardgames:1054ff
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
