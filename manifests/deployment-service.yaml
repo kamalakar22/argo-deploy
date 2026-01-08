@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: docker.io/gkamalakar1006/sample-app:latest # Image that will be used to containers in the cluster
+          image: docker.io/gkamalakar1006/board_game:20
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
